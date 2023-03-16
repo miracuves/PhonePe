@@ -14,7 +14,7 @@ var rendered = false;
 function App() {
   //Set the Title of the Web App
   useEffect(() => {
-    document.title = 'PhonePe';
+    document.title = 'OyePe';
   }, []);
 
   //Check if the Device is Mobile or Desktop or Tablet
@@ -36,7 +36,7 @@ function App() {
   }else{
     // false for not mobile device
     if(!rendered){
-      document.write("This Web App is accessible only on Mobile Device");
+      document.write("This App is accessible only on Mobile Device");
       rendered = true;
     }
   }
